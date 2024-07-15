@@ -13,7 +13,7 @@
 
     nixos-apple-silicon = {
       url = "github:tpwrules/nixos-apple-silicon";
-      inputs.follows.nixpkgs = "nixpkgs";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     hyprland = {
